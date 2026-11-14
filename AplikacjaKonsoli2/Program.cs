@@ -16,6 +16,15 @@ static char Plec(string pesel) {
    
 };
 
+/*
+**********************************************
+nazwa funkcji: CyfraKontrolna
+opis funkcji: Sprawdza poprawność cyfry kontrolnej numeru PESEL.
+parametry: pesel - jedenastocyfrowy numer PESEL
+zwracany typ i opis: bool - true, gdy cyfra kontrolna jest poprawna, w przeciwnym razie false
+autor: Jakub Kryszewski
+***********************************************
+*/
 static bool CyfraKontrolna(string pesel)
 {
     int r;
